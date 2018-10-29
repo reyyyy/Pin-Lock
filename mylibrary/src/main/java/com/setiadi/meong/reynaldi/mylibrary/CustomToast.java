@@ -5,11 +5,9 @@ import android.widget.Toast;
 
 public class CustomToast {
 
-    void customToast(Context context, String message) {
-        Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
-    }
+    public static void customToast(Context c,String message){
 
-    void gaberguna(String abc, int ax) {
+        Toast.makeText(c,message,Toast.LENGTH_SHORT).show();
 
     }
 }
