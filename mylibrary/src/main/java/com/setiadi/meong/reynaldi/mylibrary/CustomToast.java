@@ -9,4 +9,7 @@ public class CustomToast {
         Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
     }
 
+    void gaberguna(String abc, int ax) {
+        
+    }
 }
